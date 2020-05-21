@@ -6,10 +6,7 @@ fun main() {
 
     array = str.filter { it.isDigit() }.map{Character.getNumericValue(it)}.toList()
 
-
-
     array = array.sorted()
-
 
     var newStr = StringBuilder()
     array.forEach {
